@@ -22,7 +22,7 @@ export class Animation extends React.Component {
         this.props.onAnimationStart(event);
       });
     }
-  }
+  };
 
   render() {
     return (
@@ -53,7 +53,7 @@ export class Entity extends React.Component {
         this.props.onLoaded(event);
       });
     }
-  }
+  };
 
   /**
    * Stringify components passed as an object.
@@ -114,7 +114,7 @@ export class Scene extends React.Component {
         });
       }
     }
-  }
+  };
 
   render() {
     return (
